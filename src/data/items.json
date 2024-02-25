@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Med Sa Jagodom",
+        "price": 12,
+        "imgUrl": "/imgs/sajt1.jpg"
+    
+        
+    },
+    {
+        "id": 2,
+        "name": "Med Sa Borovnicom",
+        "price": 12,
+        "imgUrl": "/imgs/sajt2.jpg"
+    
+        
+    },
+    {
+        "id": 3,
+        "name": "Med Sa Malinom",
+        "price": 12,
+        "imgUrl": "/imgs/sajt3.jpg"
+    
+        
+    }
+]
