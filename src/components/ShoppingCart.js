@@ -8,6 +8,7 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 import CartItem from "./CartItem";
 import formatCurrency from "../utilites/formatCurrency";
 import storeItems from "../data/items.json";
+import FromModal from "./FormModal";
 
 function ShoppingCart({ isOpen }) {
   const { closeCart, cartItems } = useShoppingCart();
@@ -31,6 +32,8 @@ function ShoppingCart({ isOpen }) {
             )}
           </div>
         </Stack>
+
+        <FromModal />
       </Offcanvas.Body>
     </Offcanvas>
   );
